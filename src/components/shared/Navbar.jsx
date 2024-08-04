@@ -122,7 +122,7 @@ const Navbar = () => {
                 </Link>
               ) : (
                 <>
-                  <Link href="/login">
+                  <Link href="/sign-in">
                     <li className="cursor-pointer group relative px-2 md:text-[18px] ">
                       <button className="px-2 py-1 lg:px-4 lg:py-2 text-xs lg:text-sm bg-[#E33183] text-[#FDFDFD] hover:bg-[#E33183] hover:text-[#FDFDFD] rounded-tl-xl rounded-br-xl">
                         Log in
