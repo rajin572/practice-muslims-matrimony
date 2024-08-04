@@ -53,7 +53,10 @@ const Banner = () => {
               >
                 <Select
                   defaultValue="Woman"
-                  className="max-w-[200px]"
+                  className="w-[200px]"
+                  style={{
+                    width: 200,
+                  }}
                   options={[
                     {
                       value: "woman",
@@ -70,7 +73,10 @@ const Banner = () => {
                 <div className="flex items-center gap-2">
                   <Select
                     defaultValue="30"
-                    className="max-w-[90px]"
+                    className="w-[90px]"
+                    style={{
+                      width: 90,
+                    }}
                     options={[
                       {
                         value: "18",
@@ -89,7 +95,9 @@ const Banner = () => {
                   <p className="text-[#FDFDFD]">To </p>
                   <Select
                     defaultValue="30"
-                    className="max-w-[90px]"
+                    style={{
+                      width: 90,
+                    }}
                     options={[
                       {
                         value: "18",
@@ -110,7 +118,10 @@ const Banner = () => {
               <Form.Item label="Mother Tongue" name="motherTongue">
                 <Select
                   defaultValue="urdu"
-                  className="max-w-[200px]"
+                  className="w-[200px]"
+                  style={{
+                    width: 200,
+                  }}
                   options={[
                     {
                       value: "urdu",
@@ -130,7 +141,10 @@ const Banner = () => {
               <Form.Item label="Country" name="country">
                 <Select
                   defaultValue="pakistan"
-                  className="max-w-[200px]"
+                  className="w-[200px]"
+                  style={{
+                    width: 200,
+                  }}
                   options={[
                     {
                       value: "bangladesh",
@@ -150,7 +164,10 @@ const Banner = () => {
               <Form.Item label="Religion" name="religion">
                 <Select
                   defaultValue="islam"
-                  className="max-w-[200px]"
+                  className="w-[200px]"
+                  style={{
+                    width: 200,
+                  }}
                   options={[
                     {
                       value: "islam",
